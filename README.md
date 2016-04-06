@@ -53,7 +53,7 @@ Inicio
 	real : n;
 	leia(n);
 
-	escreva("", rzqd(n));
+	escreva("n", rzqd(n));
 Fim
 
 Apresentação de solução em Fluxograma:
