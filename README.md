@@ -57,7 +57,7 @@ Inicio
 Fim
 
 Apresentação de solução em Fluxograma:
-
+![Alt text](Fluxograma.png)
 
 Justificativa do uso do termo "polya" no nome do repositório:
 Utiliza o nome de Polya por causa das quatro etapas essenciais para a resolução de problemas: 1ª etapa - Compreender o problema; 2ª etapa - Traçar um plano; 3ª etapa - Colocar o plano em prática; 4ª etapa - Comprovar os resultados. As quais foram executadas para a resolução deste problema.
