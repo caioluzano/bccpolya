@@ -1,17 +1,10 @@
-CC=gcc
-CFLAGS=-W -Wall -pendantic -std=cll
-LFLAGS=-lm
+CCC = gcc
+CFLAGS = -W -Wall -pedantic -std=c11
+SRC = main
 
-SRC=$(wildcard *.c)
-BIN=$(SRC:.c=)
+all:
+	@echo "\nGerando o executável:"
+	$(CC) main.c -o main $(CFLAGS)
 
-.PHONY: all clean
-
-all: $(BIN)
-
-clean:
-	@rm -f $(BIN)
-
-%:%.c
-	@echo -n " Gerando executável $@"
-	@$ (CC) $< -o $@ $(CFLAGS) $(LFLAGS) && echo "[OK]"
+clear:
+	rm -rf $(SRC)

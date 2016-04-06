@@ -1,14 +1,12 @@
-#include <stdio.h>
-
-double md(double a, double b)
+int main()
 {
-	double resultado = a-b;
-	
-	if(resultado < 0)
-		{ resultado *= -1;
-		}
-		
-	return resultado;
+	double x;
+	scanf("%lf", &x);
+	if (x>0)
+	printf("%.2f\n", raizq(x));
+	else
+		if (x<=0)
+		printf("Raiz não válida\n");
 }
 
 double rzqd(double n)
@@ -25,11 +23,14 @@ double rzqd(double n)
         return valor1;
 }
 
-int main()
-{
-	double n;
-	scanf("%lf", &n);
 
-	printf("%.2f\n", rzqd(n));
-	return 0;
+double md(double a, double b)
+{
+	double resultado = a-b;
+	
+	if(resultado < 0)
+		{ resultado *= -1;
+		}
+		
+	return resultado;
 }
