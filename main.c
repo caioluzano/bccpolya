@@ -5,7 +5,7 @@ int main()
 	double x;
 	scanf("%lf", &x);
 	if (x>0)
-	printf("%.2f\n", raizq(x));
+	printf("%.2f\n", rzqd(x));
 	else
 		if (x<=0)
 		printf("Raiz não válida\n");
